@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+body{
+    background-color: #454545;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  
+  @theme {
+    --color-pri-500: oklch(44.29% 0.1099 152.77);
+    --color-sec-500: oklch(90.59% 0.0456 162.38);
+  }
