@@ -49,7 +49,7 @@ function Menu({item}){
 function Dots(){
     return(
         <>
-        <div className="bg-slate-400 w-4 h-4 rounded-full hover:bg-pri-500">
+        <div className="bg-slate-400 w-4 h-4 rounded-full hover:bg-pri-500 transition">
 
         </div>
         </>

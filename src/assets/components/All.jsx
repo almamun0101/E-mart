@@ -99,7 +99,7 @@ function All(){
                     <h2 className="p-2">{itemsvalue.name}</h2>
                     <h3 className="p-2">1kg</h3>
                     <p className="p-2">{itemsvalue.price}</p>
-                    <button className="bg-pri-500 px-5 py-2 text-white">Add To chart</button>
+                    <button className="bg-pri-500 px-5 py-2 text-white border-2 border-transparent transition hover:border-2 hover:border-pri-500 hover:bg-transparent hover:text-pri-500">Add To chart</button>
                 </div>
 
                 )
