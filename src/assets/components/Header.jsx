@@ -5,11 +5,11 @@ function Header(){
           <div className="flex justify-between items-center p-5">
             <img src="./Images/logo.png" alt="logo" />
             <ul className="flex items-center gap-10">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">contact</a></li>
+                <li className="hover:text-pri-500 hover:font-medium"><a href="">Home</a></li>
+                <li className="hover:text-pri-500 hover:font-medium"><a href="">About</a></li>
+                <li className="hover:text-pri-500 hover:font-medium"><a href="">Service</a></li>
+                <li className="hover:text-pri-500 hover:font-medium"><a href="">Product</a></li>
+                <li className="hover:text-pri-500 hover:font-medium"><a href="">Contact</a></li>
             </ul>
             <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-sec-500 flex justify-center items-center ">
