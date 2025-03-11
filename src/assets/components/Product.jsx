@@ -20,7 +20,7 @@ function Product(){
                         <button>Shop Now</button>
                     </div>
                 </div>
-                <div className=" bg-[#FF9564] mt-10 flex justify-around items-center">
+                <div className=" bg-[#FF9564] mt-10 flex flex-col lg:flex-row justify-around items-center">
                   <img src="./Images/Frame.png" alt="" />
                 <img src="./Images/product1.png" alt="" />
                 </div>

@@ -13,7 +13,7 @@ function Category(){
             <main className="container">
             <Heading title="CATEGORY"/>
 
-                <div className="flex gap-5 justify-between pt-5">
+                <div className="flex gap-2 lg:gap-5 justify-between pt-5">
                     <Menu item={{url:item1, name:"Vagetable"}}/>
                     <Menu item={{url:item2, name:"FRUITS"}}/>
                     <Menu item={{url:item3, name:"DRINKS"}}/>

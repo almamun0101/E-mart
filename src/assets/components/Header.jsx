@@ -2,60 +2,9 @@ function Header() {
   return (
     <>
       <header className="container">
-        {/* <div className="flex justify-between items-center p-5 relative">
-          <img src="./Images/logo.png" alt="logo" />
-          <ul className="lg:flex items-center gap-10 hidden">
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Home</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">About</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Service</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Product</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Contact</a>
-            </li>
-          </ul>
-          <ul className="absolute top-20 flex flex-col items-center gap-10 lg:hidden bg-white w-full">
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Home</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">About</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Service</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Product</a>
-            </li>
-            <li className="hover:text-pri-500 hover:font-medium">
-              <a href="">Contact</a>
-            </li>
-          </ul>
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-sec-500 flex justify-center items-center ">
-              <i class="fa-solid fa-user"></i>
-            </div>
-            <div className="w-10 h-10 rounded-full bg-sec-500 flex justify-center items-center ">
-              <i class="fa-solid fa-bell"></i>
-            </div>
-            <div className="w-10 h-10 rounded-full bg-sec-500 flex justify-center items-center lg:hidden">
-              <i class="fa-solid fa-bell"></i>
-            </div>
-          </div>
-        </div> */}
-
-        
-
         <section id="banner">
-          <div className="bg-pri-500 w-full p-5 flex items-center justify-between">
-            <div className="text">
+          <div className="bg-pri-500 w-full p-5 flex flex-col lg:flex-row items-center justify-between">
+            <div className="">
               <h1 className="text-white font-bold text-5xl pb-5">
                 Healthy and Fresh Grocery
               </h1>
