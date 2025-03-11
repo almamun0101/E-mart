@@ -33,7 +33,7 @@ function Navbar() {
            <img src="./Images/logo.png" alt="logo" />
          
           <ul
-            className={`absolute md:static top-16 gap-8 left-0 w-full md:w-auto md:flex bg-white md:bg-transparent shadow-md md:shadow-none transition-transform transform md:transform-none ${
+            className={`absolute md:static top-18 gap-8 left-0 w-full md:w-auto md:flex bg-white md:bg-transparent shadow-md md:shadow-none transition-transform transform md:transform-none ${
               isOpen ? "block" : "hidden"
             }`}
           >
