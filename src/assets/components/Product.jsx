@@ -17,7 +17,7 @@ function Product() {
               <img src="./Images/product2.png" alt=""  loading="lazy" className="mx-auto  transition-transform duration-300 hover:scale-105" />
               <div className="text-center font-bold ">
                 <h2>FRESH FRUIT SUPER SALE</h2>
-                <button className="border text-base  border-white rounded-lg px-5 py-2 text-white m-5">Shop Now</button>
+                <button className="cursor-pointer border text-base  border-white rounded-lg px-5 py-2 text-white m-5 hover:bg-white hover:text-[#FD5151]/80 duration-300 transform">Shop Now</button>
               </div>
             </div>
             <div className="rounded-2xl p-8 shadow-lg hover:shadow-2xl duration-300 bg-[#FF9564] mt-10 flex flex-col lg:flex-row justify-around items-center">
