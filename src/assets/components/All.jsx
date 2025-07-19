@@ -83,7 +83,7 @@ const items = [
 
 function All() {
   return (
-    <section className="container mx-auto p-5">
+    <section className="container mx-auto px-5">
       <div className="py-10">
         <h2 className="text-2xl font-bold text-center lg:text-left">
           All Products
@@ -94,7 +94,7 @@ function All() {
         {items.map((item, index) => (
           <div
             key={index}
-            className="p-6 text-center border border-pri-500/50 flex flex-col items-center rounded-lg shadow-sm hover:shadow-md transition"
+            className="p-6 text-center border border-pri-500/50 flex flex-col items-center rounded-lg shadow-sm hover:shadow-lg transition"
           >
             <img
               src={item.url}
@@ -104,7 +104,7 @@ function All() {
             <h2 className="font-semibold">{item.name}</h2>
             <h3 className="text-sm text-gray-500">1kg</h3>
             <p className="text-pri-500 font-bold">{item.price}</p>
-            <button className="mt-4 bg-pri-500 px-5 py-2 text-white rounded hover:bg-transparent hover:text-pri-500 hover:border hover:border-pri-500 transition">
+            <button className="mt-4 bg-pri-500 px-5 py-2 text-white border border-transparent rounded hover:bg-transparent hover:text-pri-500  hover:border-pri-500 transition">
               Add to Cart
             </button>
           </div>
