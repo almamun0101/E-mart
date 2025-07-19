@@ -15,7 +15,7 @@ function Header() {
               </p>
               <Button Name="LEARN MORE" />
             </div>
-            <img src="./Images/banner.png" alt="Banner" />
+            <img src="./Images/banner.png" alt="Banner"  loading="lazy" className="mx-auto max-w-full transition-transform duration-300 hover:scale-105"/>
           </div>
         </section>
       </header>
